@@ -11,8 +11,8 @@ internal class GameFunctionality
     int First_Number;
     int Second_Number;
     int UserAnswer;
-    int TimerInSeconds = 0;
-    int TimerInMinutes = 0;
+    int TimerInSeconds;
+    int TimerInMinutes;
 
     private static System.Timers.Timer? aTimer;
 
